@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  .reset {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    &:hover {
+      filter: brightness(95%);
+    }
+    &:active {
+      transform: translateX(-50%) scale(0.95);
+    }
+  }
+  .grid {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    &_cell {
+      background-color: white;
+      // transition: background-color 200ms ease;
+      // &.hovered {
+      //   background-color: white;
+      // }
+      &.hovered1 {
+        background-color: rgba(black, 0.1);
+      }
+      &.hovered2 {
+        background-color: rgba(black, 0.2);
+      }
+      &.hovered3 {
+        background-color: rgba(black, 0.3);
+      }
+      &.hovered4 {
+        background-color: rgba(black, 0.4);
+      }
+      &.hovered5 {
+        background-color: rgba(black, 0.5);
+      }
+      &.hovered6 {
+        background-color: rgba(black, 0.6);
+      }
+      &.hovered7 {
+        background-color: rgba(black, 0.7);
+      }
+      &.hovered8 {
+        background-color: rgba(black, 0.8);
+      }
+      &.hovered9 {
+        background-color: rgba(black, 0.9);
+      }
+      &.hovered10 {
+        background-color: black;
+      }
+    }
+  }
+}
