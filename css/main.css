@@ -40,7 +40,6 @@
 }
 .main-content .grid_cell {
   background-color: white;
-  border: 1px solid lightgray;
   cursor: crosshair;
 }
 .main-content .grid_cell.hovered1 {
